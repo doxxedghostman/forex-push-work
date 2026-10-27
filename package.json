@@ -1,0 +1,12 @@
+{
+  "name": "forex-push-work",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev --test-scheduled"
+  },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}
